@@ -40,9 +40,6 @@ Modification for the draw_lines() function:
 
 
 
-![alt text][image1]
-
-
 ### 2. Identify potential shortcomings with your current pipeline
 
 - One potential shortcoming would be the lane tracking might be inaccurate if there is sharp turns on the road
