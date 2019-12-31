@@ -1,3 +1,5 @@
+![](https://github.com/Chenlu-Wu/CarND-LaneLines/blob/master/test_images_output/solidWhiteCurve.jpg_grayscale.jpg)
+
 # **Finding Lane Lines on the Road** 
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
