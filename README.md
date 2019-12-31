@@ -32,7 +32,7 @@ Image processing steps:
 ![](https://github.com/Chenlu-Wu/CarND-LaneLines/blob/master/test_images_output/solidWhiteCurve.jpg_hough.jpg)
 
 - Adding the orignal image to the lined_image with weights α=0.8 and β=1.0, then save the image to test_image_output file.
-![](https://github.com/Chenlu-Wu/CarND-LaneLines/blob/master/test_images_output/solidWhiteCurve.jpg_thirdpass.jpg)
+![](https://github.com/Chenlu-Wu/CarND-LaneLines/blob/master/test_images_output/solidWhiteCurve.jpg_segment.jpg)
 
 Modification for the draw_lines() function:
 
