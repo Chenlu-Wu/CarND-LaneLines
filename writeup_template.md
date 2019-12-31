@@ -16,17 +16,21 @@ The goals / steps of this project are the following:
 ### 1. Pipeline description
 Image processing steps:
 - Converting image to grayscale ;
+![](https://github.com/Chenlu-Wu/CarND-LaneLines/blob/master/test_images_output/solidWhiteCurve.jpg_grayscale.jpg)
 
 - Applying Gaussian blur on the gray image to smooth the edges and reduce the noise
 
+![](https://github.com/Chenlu-Wu/CarND-LaneLines/blob/master/test_images_output/solidWhiteCurve.jpg_Gaussin_blur.jpg)
 - Applying Canny transform to find the all the edges on the Guassian_blured image
 
 - Creating a all black mask with the same size as the original image, find the region of interest (ROI) of the image (which is the area contains the lanes we care), making a masked image by adding mask and image with ROI
+![](https://github.com/Chenlu-Wu/CarND-LaneLines/blob/master/test_images_output/solidWhiteCurve.jpg_canny.jpg)
 
 - Applying Houph transformation on the masked image to find the all the lines longer than 10 pixels, and then draw the lines in red, name this processed masked image as lined_image;
+![](https://github.com/Chenlu-Wu/CarND-LaneLines/blob/master/test_images_output/solidWhiteCurve.jpg_masked.jpg)
 
 - Adding the orignal image to the lined_image with weights α=0.8 and β=1.0, then save the image to test_image_output file.
-
+![](https://github.com/Chenlu-Wu/CarND-LaneLines/blob/master/test_images_output/solidWhiteCurve.jpg_thirdpass.jpg)
 
 Modification for the draw_lines() function:
 
